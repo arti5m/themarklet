@@ -1,0 +1,22 @@
+{
+  "name": "themarkletbuilder",
+  "version": "0.2.0",
+  "description": "A quick way to serve less and js from localhost for testing purposes. Run `npm run build`",
+  "engines": {
+    "node": "^4.0.0"
+  },
+  "main": "build.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arti5m/themarklet.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "keywords": [
+    "local"
+  ],
+  "author": "Andre J. Chappelle",
+  "license": "ISC"
+}

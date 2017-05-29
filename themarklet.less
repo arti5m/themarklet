@@ -1,0 +1,19 @@
+// themarklet Utils
+._baseline { height: @baseline; }
+.hasLocalCSS {
+  position: relative;
+
+  [id^="__lpform"] {
+    display: none;
+  }
+}
+.baselineOverlay {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to top, fade(cyan, 50%) 0, transparent 1px, transparent 100%);
+  background-size: @baseline @baseline;
+}

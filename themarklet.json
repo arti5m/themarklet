@@ -1,0 +1,40 @@
+{
+  "name": "themarklet",
+  "version": "0.2.0",
+  "description": "A quick way to serve less and js from localhost for testing purposes.",
+  "engines": {
+    "node": "^4.0.0"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  },
+  "keywords": [
+    "local"
+  ],
+  "author": "Andre J. Chappelle",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "browser-sync": "^2.10.0",
+    "express": "^4.12.3",
+    "gulp": "^3.9.0",
+    "gulp-cheerio": "^0.6.2",
+    "gulp-csslint": "^0.2.0",
+    "gulp-csslint-less-reporter": "^0.1.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-less": "^3.0.2",
+    "gulp-nodemon": "^2.0.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-postcss": "^5.1.10",
+    "gulp-rename": "^1.2.2",
+    "gulp-rtlcss": "^0.1.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-svgmin": "^1.2.0",
+    "gulp-svgstore": "^5.0.5",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.2.4"
+  }
+}
